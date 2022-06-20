@@ -35,7 +35,7 @@ In this submission folder, the following files are available:
 4. Store all the captured data into a csv file.
 5. Repeat steps 3 & 4 for the different kind of gestures you want to capture.
 6. Open the ```Wake on LAN(WoL).ipynb```, modify the code to read from the csv files you captured, and do the training. 
-> Note: Training can take a long time, so do consider running the code remotely through Google Colab with GPU/TPU on.
+> Note: Training can take a long time, so do consider running the code remotely through Google Colab or Kaggle with GPU/TPU on.
 7. Save the models, and convert the selected model into the HEX file.
 > Reference code is available in the ```Wake on LAN(WoL).ipynb``` file.
 8. Import the HEX file into ```IMU_Classifier.ino.ino``` file, and modify the code to suit your gestures and flash the code into the Arudino Nano Sense board.
