@@ -28,6 +28,7 @@ In this submission folder, the following files are available:
 - ```Codes/Wake on LAN(WoL).ipynb```: Code used for training of the machine learning model based on the captured data from ```Codes/IMU_Capture.ino```.
 
 ## Running the Project
+> Note: Only Step 1, 2, 8, 9, 10 and 11 is required if the gestures implemented is good enough.
 1. Clone the repository or download the project code to your preferred disk location.
 2. Connect the Arduino Nano Sense board to the computer and install the required drivers.
 3. Open ```IMU_Caputer.ino.ino``` file, flash the code and capture the data.
@@ -39,5 +40,5 @@ In this submission folder, the following files are available:
 > Reference code is available in the ```Wake on LAN(WoL).ipynb``` file.
 8. Import the HEX file into ```IMU_Classifier.ino.ino``` file, and modify the code to suit your gestures and flash the code into the Arudino Nano Sense board.
 9. Connect the Raspberry Pi to the Arduino Nano Sense, install ```Node-Red``` and ```etherwake```, and import the codes in the ```Codes/Node-Red``` folder into the Raspberry Pi.
-10. Open ```wol.sh``` file, change the ```XX:XX:XX:XX:XX:XX``` to the targeted MAC address. Ensure the computer's LAN port allows for Wake-on-LAN functionaity. 
-11. Enjoy the remote WoL!
+10. Open ```wol.sh``` file, change the ```XX:XX:XX:XX:XX:XX``` to the targeted MAC address. 
+> Note: Ensure the computer's LAN port allows for Wake-on-LAN functionaity. 
