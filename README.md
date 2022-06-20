@@ -14,7 +14,7 @@ The objective of the project is to:
 > See ```Communication between the devices``` section in ```Project Report.pdf``` for more details.
 
 ## Optional Hardware
-- Touch Sensor
+- TTP223B Digital Capacitive Touch Sensor
 - RGB LED
 > Note: Please remove the Touch Sensor and/or RGB LED codes from ```Codes/IMU_Classifier.ino``` if unused.
 
